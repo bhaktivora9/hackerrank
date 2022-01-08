@@ -1,4 +1,4 @@
-package practice.datastructures.stacks.maximumelement;
+package practice.datastructures.stacks.easy.maximumelement;
 
 import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
@@ -25,7 +25,9 @@ class Result {
 
 	public static List<Integer> getMax(List<String> operations) {
 		List<Integer> result = new ArrayList<>();
+		
 		for (Iterator<String> iterator = operations.iterator(); iterator.hasNext();) {
+		
 			String string = (String) iterator.next();
 			String[] split = string.split(" ");
 			int parseInt = Integer.parseInt(split[0]);

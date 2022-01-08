@@ -1,4 +1,4 @@
-package datastructures.linkedlist.easy.delete_duplicate_value_nodes_from_sorted_linked_list.java;
+package practice.datastructures.linkedlist.easy.delete_duplicate_value_nodes_from_sorted_linked_list.java;
 
 import java.io.IOException;
 import java.util.Scanner;
